@@ -1,7 +1,7 @@
 # 高中统计学
 **以下所有资料仅适用于使用中华人民共和国人民教育出版社普通高中数学教科书（2019年A版）的数学教学。**
-1. [**概率的定义与计算**]()
-   * 概率的定义
+1. [**概率的定义与计算**](https://github.com/IanHo2019/High_School_STAT/blob/main/%E9%AB%98%E4%B8%AD%E7%BB%9F%E8%AE%A1%E5%AD%A61%EF%BC%9A%E6%A6%82%E7%8E%87%E7%9A%84%E5%AE%9A%E4%B9%89%E4%B8%8E%E8%AE%A1%E7%AE%97.pdf)
+   * 概率的定义（[掷硬币模拟](https://github.com/IanHo2019/High_School_STAT/blob/main/Examples/%E6%8E%B7%E7%A1%AC%E5%B8%81%E6%A8%A1%E6%8B%9F%E5%99%A8.do)）
    * 计数基本法则
    * 概率的三大公理
    * 条件概率的定义
