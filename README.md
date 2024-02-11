@@ -6,6 +6,7 @@
    * 概率的三大公理
    * 条件概率的定义
    * 贝叶斯法则
+   * [练习题](https://github.com/IanHo2019/High_School_STAT/blob/main/Exercises/%E7%BB%83%E4%B9%A01.pdf)
 2. **随机变量的定义与描述**
    * 随机变量的定义与种类
    * 概率质量函数
