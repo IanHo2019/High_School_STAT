@@ -7,12 +7,12 @@
    * 条件概率的定义
    * 贝叶斯法则
    * [练习题](https://github.com/IanHo2019/High_School_STAT/blob/main/Exercises/%E7%BB%83%E4%B9%A01.pdf)
-2. **随机变量的定义与描述**
+2. [**随机变量的定义与描述**](https://github.com/IanHo2019/High_School_STAT/blob/main/%E9%AB%98%E4%B8%AD%E7%BB%9F%E8%AE%A1%E5%AD%A62%EF%BC%9A%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F%E7%9A%84%E5%AE%9A%E4%B9%89%E4%B8%8E%E6%8F%8F%E8%BF%B0.pdf)
    * 随机变量的定义与种类
    * 概率质量函数
    * 累积分布函数
    * 概率密度函数
-   * 分位数函数
+   * 分位数函数（[Excel中的分位数计算](https://github.com/IanHo2019/High_School_STAT/blob/main/Examples/Excel%E4%B8%AD%E7%9A%84%E5%88%86%E4%BD%8D%E6%95%B0%E8%AE%A1%E7%AE%97.xlsx)）
 
 ## 初衷
 2023年11月，当我正在四川成都参加求职面试时，收到了来自我曾经的高中数学ZL老师的求助消息——关于如何向高中生解释一元线性回归模型和假设检验。在返回我的家乡后，我与ZL老师面谈，了解到浙江省普通高中在2019年开始使用新版数学教材（简称“人教2019A版”），而新教材包含了不少统计学方面的知识点：
