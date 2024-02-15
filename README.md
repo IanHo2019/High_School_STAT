@@ -56,3 +56,5 @@
 欢迎所有统计学专家、爱好者、教师的指正！
 
 **联系方式：**[ianho0815@outlook.com](mailto:ianho0815@outlook.com?subject=[GitHub]%20高中统计学).
+
+<img src="./Thanks.jpg" title="Thank you all!" alt="Thank you all!" style="width:100%"/>
