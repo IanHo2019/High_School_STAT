@@ -20,12 +20,19 @@
    * 三阶标准矩：偏度
    * 四阶标准矩：峰度
    * 矩量母函数
-5. [**特殊的概率分布**](https://github.com/IanHo2019/High_School_STAT/blob/main/%E9%AB%98%E4%B8%AD%E7%BB%9F%E8%AE%A1%E5%AD%A65%EF%BC%9A%E7%89%B9%E6%AE%8A%E7%9A%84%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83.pdf)
+   * [练习题](https://github.com/IanHo2019/High_School_STAT/blob/main/Exercises/%E7%BB%83%E4%B9%A03.pdf)
+4. [**独立性 VS 不相关**](https://github.com/IanHo2019/High_School_STAT/blob/main/%E9%AB%98%E4%B8%AD%E7%BB%9F%E8%AE%A1%E5%AD%A64%EF%BC%9A%E7%8B%AC%E7%AB%8B%E6%80%A7VS%E4%B8%8D%E7%9B%B8%E5%85%B3.pdf)
+   * 联合概率分布
+   * 统计独立
+   * 均值独立
+   * 线性独立（即线性不相关）
+6. [**特殊的概率分布**](https://github.com/IanHo2019/High_School_STAT/blob/main/%E9%AB%98%E4%B8%AD%E7%BB%9F%E8%AE%A1%E5%AD%A65%EF%BC%9A%E7%89%B9%E6%AE%8A%E7%9A%84%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83.pdf)
    * 伯努利分布
    * 二项分布
    * 超几何分布
-   * 正态分布
+   * 正态分布（[68-95-99法则的图示](https://github.com/IanHo2019/High_School_STAT/blob/main/Examples/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83%E7%9A%84%E7%89%B9%E7%82%B9.tex)）
    * 卡方分布
+   * [使用R绘制图像](https://github.com/IanHo2019/High_School_STAT/blob/main/Examples/%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83%E7%9A%84%E5%9B%BE%E5%83%8F%E7%BB%98%E5%88%B6.R)
 
 ## 初衷
 2023年11月，当我正在四川成都参加求职面试时，收到了来自我曾经的高中数学ZL老师的求助消息——关于如何向高中生解释一元线性回归模型和假设检验。返回家乡后，在一杯下午茶的时间里，我了解到：浙江省普通高中在2019年开始使用新版数学教材（简称“人教2019A版”），而新教材包含了不少统计学方面的知识点——必修第二册的最后两章和选修第三册全册都是统计学的知识。
