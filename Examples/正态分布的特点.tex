@@ -1,0 +1,35 @@
+\begin{figure}[H]
+    \centering
+    \pgfmathdeclarefunction{gauss}{2}{\pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}}
+    \begin{tikzpicture}
+        \begin{axis}[
+            samples=300,
+            axis line style={draw=none},
+            ymax=0.45,
+            xmax=3.5,
+            ticks=none,
+            height=7cm,
+            width=12cm,
+            enlargelimits=false,
+            clip=false,
+            axis on top,
+        ]
+            % 密度函数图象
+            \addplot [fill=cyan!20, draw=none, domain=-3:3] {gauss(0,1)} \closedcycle;
+            \addplot [fill=orange!20, draw=none, domain=-3:-2] {gauss(0,1)} \closedcycle;
+            \addplot [fill=orange!20, draw=none, domain=2:3] {gauss(0,1)} \closedcycle;
+            \addplot [fill=blue!20, draw=none, domain=-2:-1] {gauss(0,1)} \closedcycle;
+            \addplot [fill=blue!20, draw=none, domain=1:2] {gauss(0,1)} \closedcycle;
+            % 坐标轴
+            \draw[->] (axis cs: 0,0) -- (axis cs: 0, 0.45) node[above] {$f_X(x)$};
+            \draw[->] (axis cs: -3.5,0) -- (axis cs: 3.5,0);
+            % 坐标轴标签
+            \node[below] at(axis cs: -1,0) {\small $-\sigma$}
+                node[below] at(axis cs: 1,0) {\small $\sigma$}
+                node[below] at(axis cs: -2,0) {\small $-2\sigma$}
+                node[below] at(axis cs: 2,0) {\small $2\sigma$}
+                node[below] at(axis cs: -3,0) {\small $-3\sigma$}
+                node[below] at(axis cs: 3,0) {\small $3\sigma$};
+        \end{axis}
+    \end{tikzpicture}
+\end{figure}
