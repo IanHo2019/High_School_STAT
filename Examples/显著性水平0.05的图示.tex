@@ -1,0 +1,35 @@
+\begin{figure}[H]
+    \centering
+    \pgfmathdeclarefunction{gauss}{2}{\pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}}
+    \begin{tikzpicture}[
+        declare function={
+            g(\x)=1/(1*sqrt(2*pi))*exp(-((\x-0)^2)/(2*1^2));
+        }
+    ]
+        \begin{axis}[
+            samples=300,
+            axis line style={draw=none},
+            ymax=0.45,
+            xmax=5.5,
+            ticks=none,
+            height=7cm,
+            width=12cm,
+            enlargelimits=false,
+            clip=false,
+            axis on top,
+        ]
+            % 局部染色
+            \path[fill=red!30] (axis cs: 1.645,0) -- plot[domain=1.645:3] (axis cs: {\x}, {g(\x)}) -- (axis cs: 3,0) -- cycle;
+            \path[fill=forestgreen!30] (axis cs: -3,0) -- plot[domain=-3:1.645] (axis cs: {\x}, {g(\x)}) -- (axis cs: 1.645,0) -- cycle;
+            % 概率密度曲线
+            \addplot [domain=-3:3, line width=1pt] {gauss(0,1)};
+            \draw (axis cs: -3.5,0) -- (axis cs: 3.5,0);
+            % 辅助性的虚线与坐标点
+            \draw[dashed] (axis cs: 1.645,-0.01) -- (axis cs: 1.645,0.4);
+            \draw (axis cs: 0,-0.01) -- (axis cs: 0,0.01);
+            \node[below] at(axis cs: 0,-0.01) {$\theta_0$}
+                node[below] at(axis cs: 1.645,-0.01) {$c$}
+                node at(axis cs: -1.1,0.3) {$F_0$};
+        \end{axis}
+    \end{tikzpicture}
+\end{figure}
