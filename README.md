@@ -41,17 +41,17 @@
    * 样本与抽样
    * 估计
    * [练习题](https://github.com/IanHo2019/High_School_STAT/blob/main/Exercises/%E7%BB%83%E4%B9%A06.pdf)
-1. **条件期望与线性模型**
+1. [**条件期望与线性模型**](https://github.com/IanHo2019/High_School_STAT/blob/main/%E9%AB%98%E4%B8%AD%E7%BB%9F%E8%AE%A1%E5%AD%A67%EF%BC%9A%E6%9D%A1%E4%BB%B6%E6%9C%9F%E6%9C%9B%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B.pdf)
    * 条件期望函数
    * 误差项
    * 线性模型
-1. **一元线性回归模型的参数估计**
+1. [**一元线性回归模型的参数估计**](https://github.com/IanHo2019/High_School_STAT/blob/main/%E9%AB%98%E4%B8%AD%E7%BB%9F%E8%AE%A1%E5%AD%A68%EF%BC%9A%E4%B8%80%E5%85%83%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%8F%82%E6%95%B0%E4%BC%B0%E8%AE%A1.pdf)
    * 一元线性回归模型
    * 最小二乘法
    * 矩量估计法
    * 最小二乘估计量的无偏性
    * 线性模型的拟合效果
-1. **假设检验极简介绍**
+1. [**假设检验极简介绍**](https://github.com/IanHo2019/High_School_STAT/blob/main/%E9%AB%98%E4%B8%AD%E7%BB%9F%E8%AE%A1%E5%AD%A69%EF%BC%9A%E5%81%87%E8%AE%BE%E6%A3%80%E9%AA%8C%E6%9E%81%E7%AE%80%E4%BB%8B%E7%BB%8D.pdf)
    * 假设检验的基本步骤
    * 卡方独立性检验（[例题](https://github.com/IanHo2019/High_School_STAT/blob/main/Examples/%E5%8D%A1%E6%96%B9%E7%8B%AC%E7%AB%8B%E6%80%A7%E6%A3%80%E9%AA%8C%E7%BB%9F%E8%AE%A1%E9%87%8F%E7%9A%84%E8%AE%A1%E7%AE%97.xlsx)、[图示](https://github.com/IanHo2019/High_School_STAT/blob/main/Examples/%E5%8D%A1%E6%96%B9%E7%8B%AC%E7%AB%8B%E6%80%A7%E6%A3%80%E9%AA%8C%E7%9A%84%E6%93%8D%E4%BD%9C%E4%B8%8E%E5%9B%BE%E7%A4%BA.R)）
    * 不接受 $\neq$ 拒绝
