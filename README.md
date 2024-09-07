@@ -21,7 +21,7 @@
    * 四阶标准矩：峰度
    * 矩量母函数
    * [练习题](https://github.com/IanHo2019/High_School_STAT/blob/main/Exercises/%E7%BB%83%E4%B9%A03.pdf)
-1. [**独立性 VS 不相关**](https://github.com/IanHo2019/High_School_STAT/blob/main/%E9%AB%98%E4%B8%AD%E7%BB%9F%E8%AE%A1%E5%AD%A64%EF%BC%9A%E7%8B%AC%E7%AB%8B%E6%80%A7VS%E4%B8%8D%E7%9B%B8%E5%85%B3.pdf)
+1. [**独立性 VS 不相关**](https://github.com/IanHo2019/High_School_STAT/blob/main/%E9%AB%98%E4%B8%AD%E7%BB%9F%E8%AE%A1%E5%AD%A64%EF%BC%9A%E7%8B%AC%E7%AB%8B%E6%80%A7%20VS%20%E4%B8%8D%E7%9B%B8%E5%85%B3.pdf)
    * 联合概率分布
    * 统计独立
    * 均值独立（[条件期望的计算](https://github.com/IanHo2019/High_School_STAT/blob/main/Examples/%E6%9D%A1%E4%BB%B6%E6%9C%9F%E6%9C%9B%E7%9A%84%E8%AE%A1%E7%AE%97.xlsx)）
